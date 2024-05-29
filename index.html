@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: large;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRPQhOACTfeNSqMINejD97vEljuv7Kbv4Xnq2jTT3jbc4OJrgrzKTMLL3lgRmxNjEVDFk-yKVXcvzA67mOSSOz4EXC6Bsu6hqd0_JI6epu0GgECb7i5LnyBf3J2K6OSI2mcJo0bpC5XWhYeM0phRc_IVgwaME1OpnhxRM0biKKBIgSu5SXArIAga49diPm/s1196/Screenshot_20240529-012034~2.png'); /* Fondo de pantalla */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-color: rgba(240, 240, 240, 0.8); /* Fondo con opacidad */
+            scroll-behavior: smooth; /* Desplazamiento suave */
+        }
+
+        header {
+            background-color: rgba(14, 129, 233, 0.616); /* Encabezado con opacidad */
+            color: #fff;
+            padding: 2%;
+            text-align: center;
+            transition: background-color 0.3s ease; /* Transición de color */
+        }
+        
+        header:hover {
+            background-color: rgba(16, 18, 163, 0.5); /* Cambio de color al pasar el cursor */
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 2%;
+            transition: transform 0.3s ease; /* Transición de transformación */
+        }
+        
+        nav ul li:hover {
+            transform: scale(1.1); /* Efecto de escala al pasar el cursor */
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease; /* Transición de color */
+        }
+        
+        nav ul li a:hover {
+            color: #ffd700; /* Cambio de color al pasar el cursor */
+        }
+
+        .container{
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+
+        aside{
+            background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+            border-radius: 5px; /* Bordes redondeados */
+            padding: 10px; /* Relleno interno */
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+            margin-top: 20px; /* Margen superior */
+            width: 30%;
+            height: 100%;
+        }
+        
+        main {
+            padding: 2%;
+            width: 100%;
+            height: 100%;
+        }
+
+        #video-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        video {
+            width: 100%;
+            height: auto;
+        }
+
+        section {
+            margin-bottom: 3%;
+            background-color: rgba(255, 255, 255, 0.8); /* Sección con opacidad */
+            border-radius: 10px;
+            padding: 2%;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease; /* Transición de transformación */
+        }
+        
+        section:hover {
+            transform: translateY(-5px); /* Efecto de elevación al pasar el cursor */
+        }
+
+        section h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 1%;
+            margin-bottom: 2%;
+        }
+        
+        section p {
+            color: black;
+        }
+        
+        footer {
+            background-color: rgba(14, 129, 223, 0.616); /* Pie de página con opacidad */
+            color: #fff;
+            text-align: center;
+            padding: 1%;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        /* Estilos para los iconos de contacto */
+        .contact-info i {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>¡Bienvenido a la página que te recuerda porque sentenciar a Mathias UP!</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#datos">Datos</a></li>
+                <li><a href="#Otros">Deja tus razones</a></li>
+                <li><a href="Sobre">Sobre Mathias UP</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <aside>
+            <section id="datos">
+                <h2>Datos del Enemigo</h2>
+                <li>Lleva 2 victorias en Rondas 2 y 5</li>
+                <li>Lleva 4 derrotas en Rondas 1, 3, 4 y 5</li>
+                <li>Le ha ganado a Numas y a Christian</li>
+                <li>Ha perdido contra Oscar, Yudi, Kita y Rocor</li>
+            </section>
+        </aside>
+        <main>
+            <!-- Contenido principal de la página -->
+            <section id="inicio">
+                <h2>¿Por qué sentenciar a Mathias UP?</h2>
+                <li>Por mame</li>
+                <li>Porque es peruano</li>
+                <li>Porque la paloma que tenia tu abuelita se la comió él</li>
+                <li>Porque pone dinamita en tu casita de maincraft (igual que Kita)</li>
+                <li>Porque no deposita al paypal</li>
+                <li>Porque es el enemigo público numero 1 de la dinámica</li>
+                <li>Porque te sacará cuando pueda</li>
+                <li>Porque le cago el pick a Alvaro (Por alguna extraña razon ganaron)</li>
+                <li>Porque la tulpa lo salvó</li>
+                <li>Porque Juan lo salvó para ver la dinámica arder</li>
+                <li>Porque Miami me lo confirmó</li>
+                <li>¿Ya dije que es peruano?</li>
+                <li>Adjune otras razones al final porque ya no se que más inventar</li>
+            </section>
+        </main>
+    </div> <!-- Cierre del div .container -->
+    <section>
+        <section id="Sobre">
+            <h2>Sobre Mathias UP</h2>
+            <p>Conocido como el enemigo publico numero 1 de la dinamica "La Gran Conquista", nació en Perú (igual que Yudi)<br>
+            Sus pasatiempos favoritos son: Jugar Pokémon y Maincraft, patear ancianos y robar dulces de los niños, comer palomas y cuys, secuestrar perros y arruinarle el pick a Alvaro</p>
+        </section>
+    </section>
+    <section>
+        <section id="Otros">
+            <h2>¿Tienes más razones?</h2>
+            <p>Deja tus razones</p>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe5LTO8eZPDu4B-U4FZv4iUQSlilSynvqYA7ImeASssfj6iuA/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+        </section>
+    </section>
+    <footer>
+        <p>Derechos de autor © 2024 Mi Página Web. Todos los derechos reservados.</p>
+        <p>Todo el contenido es sin fines de lucro y para el mame de la dinámica</p>
+    </footer>
+</body>
+
+</html>
